@@ -74,6 +74,6 @@ for repo_name in repositories:
         break
 
 df = pd.DataFrame(data, columns=['Repository', 'Number of contributors', 'Number of releases in the past year'])
-# 'Active contributors']
+# 'Active contributors'
 
 print(df)
